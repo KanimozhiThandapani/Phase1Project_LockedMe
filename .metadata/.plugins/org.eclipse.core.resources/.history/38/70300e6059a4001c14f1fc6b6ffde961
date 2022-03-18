@@ -1,0 +1,25 @@
+package com.module;
+
+import java.io.IOException;
+
+public class MainClass {
+	
+
+	public static void main(String[] args) throws IOException {
+		LockedMe.displayMenu();
+		
+		do {
+			
+			
+			LockedMe.displayAllFiles();
+			
+			//LockedMe.addANewFile();
+			LockedMe.deleteAFile();
+			
+		}while(true);
+		
+		
+		
+	}
+
+}

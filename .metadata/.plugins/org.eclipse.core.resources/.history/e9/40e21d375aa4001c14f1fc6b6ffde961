@@ -1,0 +1,24 @@
+package com.module;
+
+import java.io.IOException;
+import java.util.Scanner;
+
+public class MainClass {
+	
+	
+	public static void main(String[] args) throws IOException {
+		Scanner sc = new Scanner(System.in);
+		int choice;
+		
+		do 
+		{
+		   LockedMe.displayMenu();
+		   System.out.println("Enter Your Choice:");
+		   choice=Integer.parseInt(sc.nextLine());
+		
+		
+		
+		
+	}
+	}
+}

@@ -1,0 +1,25 @@
+package com.module;
+
+import java.io.IOException;
+
+public class MainClass {
+	
+
+	public static void main(String[] args) throws IOException {
+		
+		do {
+			switch{
+			
+			}
+			LockedMe.displayMenu();
+			LockedMe.displayAllFiles();
+			System.out.println("Enter the Name of the File To be created");
+			LockedMe.addANewFile();
+			
+		}while(true);
+		
+		
+		
+	}
+
+}

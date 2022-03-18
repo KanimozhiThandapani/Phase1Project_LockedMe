@@ -1,0 +1,12 @@
+package com.module;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		LockedMe.displayMenu();
+		LockedMe.displayAllFiles();
+		
+	}
+
+}
